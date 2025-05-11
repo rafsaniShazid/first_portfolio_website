@@ -133,7 +133,7 @@ section{
 }
 /*PROFILE SECTION*/
 #profile{
-    margin-top: 10px;
+    margin-top: -50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -299,6 +299,10 @@ article .icon{
     width: 90%;
     height: 90%;
 }
+.project-img3,.project-img1{
+    height: 300px;
+}
+
 .project-title{
     margin:1rem;
     color: black;
