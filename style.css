@@ -141,6 +141,9 @@ section{
     height: 80vh;
     margin-bottom: 40px;
 }
+.animated-text {
+  transition: opacity 0.5s ease-in-out;
+}
 .section__pic-container{
     display: flex;
     height: 400px;
