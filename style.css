@@ -221,6 +221,7 @@ section{
     gap: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    flex-wrap: wrap;
 }
 .about-details-container{
     justify-content: center;
@@ -292,6 +293,16 @@ article .icon{
 /*PROJECTS*/
 #projects{
     position: relative;
+}
+#projects .about-containers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+#projects .details-container {
+    flex: 0 0 25%;
+    max-width: 25%;
 }
 .color-container{
     border-color: rgb(163,163,163);
